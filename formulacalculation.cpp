@@ -170,7 +170,7 @@ void basicCalculation(double infectionRate, int developmentTime, double mortalit
     double  powerCoefficient=1;//коэфициент который уменьшается, из-за действий властей
     int infectedAfter=1;//предыдущих случаев заражения для расчета, считаем, что болезнь проявляется на след сутки и граждане садятся на карантин и никого больше не заражают
     int casesOfInfection=1;//случаев заражения всего
-    system("cls");
+    system("clear");
     cout<<"В городе "<<nameCity<<" Зарегистрирован первый случай заражения вирусом "<<nameVirus<<endl;
     for (int today = 1; today <= predictDay; today++)//цикл должен работать столько, на сколько дней нужен прогноз
     {

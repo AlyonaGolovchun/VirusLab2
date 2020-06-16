@@ -114,7 +114,7 @@ void addVirus(string filenameVir, string filenameCity)
 
 void showVirus(string filenameVir, string filenameCity)
 {
-    system("cls");
+    system("clear");
     cout << "Существующие вирусы на данные момент: " << endl;
     Virus *virus;
     virus = new Virus;
@@ -224,7 +224,7 @@ void addCity(string filenameVir, string filenameCity)
 
 void showCity(string filenameVir, string filenameCity)
 {
-    system("cls");
+    system("clear");
     cout << "Города добавленные в базу данных: " << endl;
     InfectedItem* city;
     city = new InfectedItem;
@@ -336,7 +336,7 @@ void returnInMenu(string filenameVir, string filenameCity)
     cin >> select;
     if (select == '1')
     {
-        system("cls");
+        system("clear");
         menu(filenameVir, filenameCity);
     }
     else exit(0);
